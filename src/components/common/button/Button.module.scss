@@ -1,0 +1,16 @@
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+.button {
+  padding: 10px 15px;
+
+  &Primary {
+    background-color: #FFCC17;
+  }
+
+  &Secondary {
+    background-color: black;
+  }
+}

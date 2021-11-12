@@ -1,0 +1,28 @@
+.sidebar {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 100vh;
+  padding: 15px;
+  background-color: #F8F8F8;
+
+  &Nav {
+    margin: 15px -15px 0px;
+
+    & > a {
+      display: block;
+      padding: 10px;
+      border-bottom: 1px solid white;
+      color: black;
+      text-decoration: none;
+
+      &:hover {
+        background-color: #EAEAEA;
+      }
+    }
+  }
+}

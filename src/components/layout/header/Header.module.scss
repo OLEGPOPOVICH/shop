@@ -1,0 +1,41 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #EAEAEA;
+  z-index: 1;
+
+  &Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+  &Logo {
+    font-weight: 16px;
+  }
+
+  &Cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &NumberGoods {
+    padding: 0 10px;
+    font-weight: 16px;
+  }
+}
+
+.iconCart {
+  display: block;
+  width: 21px;
+  height: 20px;
+  background-image: url(../../../assets/images/cart.png);
+  background-repeat: none;
+}
+

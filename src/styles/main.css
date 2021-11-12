@@ -1,0 +1,67 @@
+@import "~normalize.css";
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../assets/fonts/Roboto-Regular.ttf") format('truetype');
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper-site {
+  width: 100%;
+  overflow: hidden;
+}
+
+.wrapper-content {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.button {
+  padding: 10px 15px;
+}
+
+.button-primary {
+  background-color: #FFCC17;
+}
+.button-secondary {
+  background-color: black;
+  color: white;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.btn {
+  padding: 10px;
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  line-height: 0.5;
+}
+
+.btn-secondary {
+  background-color: black;
+  color: white;
+}
+
+.btn-round {
+  border-radius: 50%;
+}

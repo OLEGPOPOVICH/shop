@@ -1,0 +1,61 @@
+.card {
+  max-width: 300px;
+  min-width: 300px;
+  width: 100%;
+  box-shadow: 1px 4px 14px -8px black;
+  border-radius: 7px;
+
+  &Header {
+    position: relative;
+    height: 130px;
+    width: 100%;
+    overflow: hidden;
+
+    &Img {
+
+      & img {
+        display: block;
+        height: 130px;
+        margin: 0 auto;
+      }
+    }
+
+    &Btn{
+      position: absolute;
+      top: 15px;
+    }
+
+    &BtnCreate {
+      left: 15px;
+    }
+
+    &BtnRemove {
+      right: 15px
+    }
+  }
+
+  &Content {
+    padding: 0 15px;
+    background-color: #F8F8F8;
+  }
+
+  &Title {
+    padding: 15px 0;
+
+  }
+
+  &Desc {
+    border-top: 1px solid #EAEAEA;
+    padding: 15px 0;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  &Action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #EAEAEA;
+    padding: 15px 0;
+  }
+}
